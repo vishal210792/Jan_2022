@@ -1,0 +1,31 @@
+Pipeline
+{
+Agent any
+Stages
+{
+stage("Test"){
+steps
+{
+echo "Tested application"
+}
+}
+}
+Stages
+{
+stage("Compile"){
+steps
+{
+echo "Compiled application"
+}
+}
+}
+Stages
+{
+stage("Deploy"){
+steps
+{
+echo "Deployed application"
+}
+}
+}
+}
